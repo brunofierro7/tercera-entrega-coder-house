@@ -1,0 +1,24 @@
+{
+  "name": "de_mi_jardin",
+  "version": "1.0.0",
+  "description": "Página de venta de suculentas y artículos para el jardín",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Fierro",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunofierro7/desafio_sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brunofierro7/desafio_sass/issues"
+  },
+  "homepage": "https://github.com/brunofierro7/desafio_sass#readme"
+}

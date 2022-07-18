@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(
+    to top,
+    #b7d3c1,
+    #ffffff,
+    #b9c199,
+    #d8cfac,
+    #f2dec4
+  );
+}
+
+.row.no-pad {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-pad > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $enlaces-general-white;
+}
+ul {
+  list-style: none;
+}

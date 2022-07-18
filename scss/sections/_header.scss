@@ -1,0 +1,56 @@
+.color-nav {
+  background-image: linear-gradient(
+    to right top,
+    rgb(105, 134, 101),
+    rgb(61, 35, 35)
+  );
+  @include desktop {
+    background-image: linear-gradient(
+      to left top,
+      rgb(105, 134, 101),
+      rgb(61, 35, 35)
+    );
+  }
+}
+
+a:hover {
+  color: rgb(44, 194, 69);
+}
+
+.h1-nav {
+  color: $color-background;
+  text-shadow: 0px 0px 10px rgb(140, 196, 109);
+  margin-top: 12px;
+  text-align: end;
+  font-size: 2em;
+}
+
+.menu-pc {
+  width: 77%;
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4em;
+  text-shadow: 0px 0px 15px white;
+}
+.menu-cel {
+  margin-top: 3vh;
+  height: 81vh;
+  width: 100vw;
+  list-style: none;
+  display: grid;
+  background-image: linear-gradient(
+    to left top,
+    rgb(129, 155, 70),
+    rgb(96, 121, 145)
+  );
+
+  @include desktop {
+    display: none;
+  }
+}
+.menu-cel li {
+  font-size: 1.9em;
+  text-align: center;
+  width: 100%;
+}

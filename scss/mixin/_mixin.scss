@@ -1,0 +1,12 @@
+
+@mixin flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+$colores:(
+    'uno': #d1dee2,
+    'dos': #eebf25,
+    'tres': #000000,
+);
